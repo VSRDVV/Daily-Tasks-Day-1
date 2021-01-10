@@ -1,0 +1,51 @@
+History of HTTP Versions...
+
+HTTP stands for Hyper Text Transfer Protocol.
+
+Intoduction to Network Protocols:
+
+Protocol is a predefined set of rules that determine how data is transmitted between multiple devices in the same network.
+To keep it simple let us we can think of them as something that defines the process how data is send and received.Every time 
+we use internet we are using these protocols in the background.They are backbone for all the digital communications.
+
+Example of protocols :HTTP is for browsers likeChrome,SMTP is for gmail etc.
+
+Before we jump into in the history of HTTP versions.Let us understand what HTTP is!
+
+Let's put our entire focus on HTTP now as we have learnt the basics behind this.
+This would be very helpful and informative for anyone who would like to pursue their career 
+in the field of web development.
+
+Evolution of HTTP:
+
+1) In 1989 Tim Berner Lee cmae out with a way to share files across various systems.HTTP is the master behind the WORLD WIDE WEB.
+
+2) There four commonly known versions of HTTP : HTTP/0.9;HTTP/1.0;HTTP/1.1;HTTP/1.2
+
+3) The version commonly in use today is HTTP/1.1
+
+4) HTTP/0.9 was a simple client server basic version.It initially didnt have any name and was given later based on the
+ versions to be differentiated from them.It was the first documented version of HTTP in 1995.This supports only Get Method.It only 
+supports HTML files.It did not have an option for status codes for headers.
+
+Web servers like Apache still use this protocol.
+
+5) HTTP/1.0 : This was the first browser friendly protocol introduced in 1991.It included the concept of headers for metadata for both 
+request and response.This supported multiple methods like Get,Head and Post.It enables sending more than HTML files.Status code line is
+ present at the beginning of the response.It has the ability to send non html documents.
+
+6) HTTP/1.1:This is the first officially standardized version of HTTP introduced in early 1997.It supported multiple methods compared to
+ any other earlier version.It uses connection reuse and pipelining(parallel processing of requests),content negotiation(encoding languages).
+Also added cache control mechanisms.
+
+7)HTTP/2.0 : It has improved performance.It supports binary protocol rather than text.It is based on Google's SPDY protocol.Improved performance
+ in data processing and pipelining of requests.
+
+8) HTTP/3.0 :It is the upcoming version.It is not in active use yet.
+
+
+
+
+
+
+

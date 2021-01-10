@@ -1,0 +1,66 @@
+Isn't it interesting to learn what happesn in the browser (say chrome) once an URL is entered!
+
+1) Let us suppose we enter http://www.google.com into our web browser.This URL is translated into IP address by 
+Domain Name Server(DNS).
+This process is called Forward Look Up.This IP address will have a Port number attached to it.
+
+IP address : http://172.217.160.142/index.html
+
+Note :
+DNS is like the phone book of the internet.It converts user understandable URL into machine understandable format.
+
+DNS servers are divided into zones that form a heirarchy.The first point of contact in DNS is the root server which 
+returns IP address of the Top Level Domain server(.com)The top level domain server returns the IP address of the second 
+level domain serveri.e. google.com.Finally thesecond level domain server which contains DNS record of the server we are 
+looking for and thus returns the IP address to the server.
+
+IP address is the unique way to identify a device connected to internet i.e. which is present in a network.
+IP address is represented by four numbers and each number between 0-255.
+
+
+
+2) Based on whether it is http or https Port 80 or Port 443 are looked upon respectively.
+
+3) Note : Index.html is the first file that is loaded on the browser.This will be the main web page of a website.
+
+4) The browser sends HTTP request to the server and it looks for default GET method that is used to get the response.
+
+5) Once the request reaches the server ,Port 80 where index.html is present is looked upon.
+
+6) Once we get resource from the serve,response reaches the browser there will be three files HTML,CSS and 
+JavaScript files respectively.
+
+7) There are three engines to process the resource from the server: Rendering Engine,Browser Engine and 
+Java Script Engine.
+
+8) HTML file is converted into tree like structure called the DOM(Document Object Model) tree by the HTML
+parser present in the rendering enginer and CSS file is converted into CSSOM tree by the CSS parser 
+present in the rendering engine respectively.
+
+9)Both these trees are combined to form the layout tree.
+
+10)Parallely javascript engine converts the .js file into tokens(smaller pieces of code)
+and these tokesn are used to construct a Abstract Syntax Tree.This tree is fed to the interpreter and based on
+opitmization need given by Profiler Profiler Just in Time COmpliation is done by the Java Script Engine.
+
+11) Once the layout tree is ready,the UI Backend layer does the painting process so that the layout tree is converted into
+user understandable format in the browser.
+
+12) Finally the user presentable content is displayed to the end user on the web browser.
+
+And yes all this happens in a fraction of seconds!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

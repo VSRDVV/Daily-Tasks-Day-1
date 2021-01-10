@@ -1,0 +1,20 @@
+Differences between browser JS and Node JS:
+
+Some of the basic differences between browser JS and Node JS are as below:
+
+1) Java Script is a scripting language.
+	Node JS is a standalone enivrioment for executing JavaScript code without the help of a browser.
+
+2) Browser JS can be executed only on the browsers using the java script engine present in the browser.
+It is browser dependent for execution.
+	Node JS environment is developed by Ryan Dahl by downloading the code of java script engine and 
+added few more features to enable it as a stand alone environment.It is browser independent.
+
+3)Browser JS can process HTML tags and also DOMs.
+	In Node JS HTML tags cannot be added.
+
+4)Browser JS is mostly used in the client side.
+	Node Js is mostly used on the server side.
+
+5)Javascript runs on multiple engines liek Spide Monkey,V8,Java Script Coreetc.
+	Node JS only supports V8 engine.

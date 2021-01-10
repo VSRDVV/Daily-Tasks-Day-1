@@ -1,0 +1,26 @@
+HTTP1.1 VS HTTP 1.2:
+
+HTTP 1.1:It keeps all the requests and responses
+in plain text format.
+
+	HTTP 1.2: It uses binary framing to convert 
+		all messages into binary foramt.
+
+HTTP 1.1 : It loads resources one after other.
+If one resource is blocked later ones are blocked too.
+
+	HTTP 1.2 : All the resources are sent in multiple streams.
+		So there is no blocking of resources here.
+
+HTTP 1.1 : There is no active server push mechanism in HTTP1.1
+
+	HTTP1.2: A server only serves content to a client device if the 
+	client asks for it. However, this approach is not always practical for modern 
+	webpages, which often involve several dozen separate resources that the client must request.
+
+HTTP 1.1 : Small files are executed faster than larger ones.
+Compression techniques used in HTTP 1.1 
+are less effective than the ones used in HTTP 1.2.
+
+	HTTP 1.2 The compression technique used here is much more
+	effective than the methodology used in HTTP 1.1.
